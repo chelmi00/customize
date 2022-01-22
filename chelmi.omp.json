@@ -1,0 +1,98 @@
+// C:\Users\migfe\Documents\WindowsPowerShell\Modules\oh-my-posh\themes
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "console_title": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#012456",
+          "leading_diamond": "\uE0B6",
+          "trailing_diamond": "",
+          "properties": {
+            "prefix": "",
+            "windows": "\uE62A",
+            "postfix": ""
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#012456",
+          "properties": {
+            "prefix": "",
+            "style":"agnoster_short"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B2",
+          "invert_powerline": true,
+          "foreground": "#ffffff",
+          "background": "#83769c",
+          "properties": {
+            "template": "{{ .UserName }}"
+          }
+        },
+        {
+          "type": "time",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B2",
+          "invert_powerline": true,
+          "foreground": "#ffffff",
+          "background": "#33658A"
+        },
+        {
+          "type": "battery",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B4",
+          "invert_powerline": true,
+          "foreground": "#ffffff",
+          "background": "#012456",
+          "properties": {
+            "discharging_icon": " ",
+            "charging_icon": " ",
+            "postfix": " "
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "root",
+          "style": "plain",
+          "properties": {}
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "text": "<#69FF94>\u276F</>"
+          }
+        }
+      ]
+    }
+  ]
+}
