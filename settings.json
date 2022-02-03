@@ -68,7 +68,7 @@
                 },
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-                "name": "Ubuntu",
+                "name": "Linux",
                 "startingDirectory": "/mnt/c/Users/migfe",
                 "tabColor": "#165B24",
                 "tabTitle": "Linux"
@@ -80,7 +80,7 @@
                 "name": "S\u00edmbolo del sistema"
             },
             {
-                "colorScheme": "Powershell",
+                "colorScheme": "Campbell Powershell",
                 "font": 
                 {
                     "face": "MesloLGL Nerd Font"
@@ -273,29 +273,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
-        },
-        {
-            "background": "#112266",
-            "black": "#0C0C0C",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#3B78FF",
-            "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
-            "brightPurple": "#B4009E",
-            "brightRed": "#E74856",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#13A10E",
-            "name": "Powershell",
-            "purple": "#881798",
-            "red": "#C50F1F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#C19C00"
         },
         {
             "background": "#000000",
