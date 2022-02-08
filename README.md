@@ -8,7 +8,7 @@ Las variables que uso van precedidas por ```$``` y sucedidas por ```>```, el res
   Import-Module oh-my-posh
   Set-PoshPrompt -Theme $dir>/$archivo> (chelmi.omp.json o chelmo.omp.json)
   ```
-  Por otro lado, Oh-My-Posh, también se puede usar para la cmd. Sin embargo, hay que instalar clink, y permitir su arranque cada vez que se arranque cmd.exe. Posteriormente, hay que insertar el archivo oh-my-posh.lua en la carpeta de scripts de clink, que se puede encontrar ejecutando ```clink info``` dentro de la cmd.
+  Por otro lado, Oh-My-Posh, también se puede usar para la cmd. Sin embargo, hay que instalar clink, y permitir su arranque cada vez que se arranque cmd.exe. Posteriormente, hay que insertar el archivo oh-my-posh.lua en la carpeta de scripts de clink, que se puede encontrar ejecutando ```clink info``` dentro de la cmd. Hay que modificar las variables $dir> y $archivo> según la que insertes.
 
 - settings.json es para Windows Terminal para Linux, cmd, Powershell, PWSH, Python, GIT Bash y Nodejs, por lo que puedes modificarlo a tu gusto. Esto se abre desde configuración > Abrir archivo JSON
 
