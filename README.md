@@ -1,12 +1,12 @@
 Las variables que uso van precedidas por ```$``` y sucedidas por ```>```, el resto es propio de Windows
 
 
-- chelmi.omp.json y chelmo.omp.json son para Oh-My-Posh para powershell, hay que guardarlos en la carpeta $dir>, yo los tengo en /Users/$user>/Documents/WindowsPowerShell/Modules/oh-my-posh/themes/.
+- chelmi.omp.json, chelmo.omp.json y chelmu.omp.json son para Oh-My-Posh para powershell, hay que guardarlos en la carpeta $dir>, yo los tengo en /Users/$user>/Documents/WindowsPowerShell/Modules/oh-my-posh/themes/.
 
   Para arrancarlos por defecto, modificas $PROFILE:
   ```
   Import-Module oh-my-posh
-  Set-PoshPrompt -Theme $dir>/$archivo> (chelmi.omp.json o chelmo.omp.json)
+  Set-PoshPrompt -Theme $dir>/$archivo> (chelmi.omp.json, chelmo.omp.json o chelmu.omp.json)
   ```
   Por otro lado, Oh-My-Posh, también se puede usar para la cmd. Sin embargo, hay que instalar clink, y permitir su arranque cada vez que se arranque cmd.exe. Posteriormente, hay que insertar el archivo oh-my-posh.lua en la carpeta de scripts de clink, que se puede encontrar ejecutando ```clink info``` dentro de la cmd. Hay que modificar las variables $dir> y $archivo> según la que insertes.
 
