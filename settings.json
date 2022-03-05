@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -45,11 +46,12 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.5,
+            "bellStyle": "window",
             "font": 
             {
                 "face": "MesloLGL Nerd Font"
             },
+            "opacity": 50,
             "useAcrylic": true
         },
         "list": 
@@ -75,7 +77,6 @@
             },
             {
                 "colorScheme": "Tango Dark",
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "S\u00edmbolo del sistema"
             },
@@ -93,7 +94,6 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "powershell.exe",
                 "font": 
                 {
                     "face": "MesloLGM Nerd Font"
@@ -108,7 +108,7 @@
                 "colorScheme": "Aurora",
                 "commandline": "C:\\Users\\migfe\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
                 "guid": "{0b54bf0c-0947-4f62-8faf-3815bf0bcc6e}",
-                "icon": "C:\\Users\\migfe\\Pictures\\Fotos\\Extract & Code\\python.ico",
+                "icon": "C:\\LoImportante\\General\\Fotos\\Extract & Code\\python.ico",
                 "name": "Python",
                 "tabColor": "#C39D28",
                 "tabTitle": "Python"
@@ -129,7 +129,7 @@
             {
                 "commandline": "node",
                 "guid": "{bf3ba293-723f-4530-bc54-2e23b61a1aea}",
-                "icon": "C:\\Users\\migfe\\Pictures\\Fotos\\Extract & Code\\node.ico",
+                "icon": "C:\\LoImportante\\General\\Fotos\\Extract & Code\\node.ico",
                 "name": "Node JS"
             }
         ]
