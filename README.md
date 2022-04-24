@@ -1,4 +1,6 @@
-Las variables que uso van precedidas por ```$``` y sucedidas por ```>```, el resto es propio de Windows
+Repositorio utilizado para la modificación estética de las distintas terminales. He utilizado la Terminal de Windows, y por consiguiente todo está pensado específicamente para Windows, pero se puede extrapolar al resto de sistemas operativos.
+
+Las variables que uso van precedidas por ```$``` y sucedidas por ```>```, el resto es propio de Windows.
 
 
 - chelmi.omp.json, chelmo.omp.json y chelmu.omp.json son para Oh-My-Posh para powershell, hay que guardarlos en la carpeta $dir>, yo los tengo en /Users/$user>/Documents/WindowsPowerShell/Modules/oh-my-posh/themes/.
